@@ -1,7 +1,24 @@
-/* font-family: 'Lora', serif;
-font-family: 'Montserrat', sans-serif; */
+:root {
+  --heading-font: "Lora", serif;
+  --paragraph-font: "Montserrat", sans-serif;
+}
 
-h1,
-p {
-  font-family: "Lora", serif;
+nav {
+  background-color: #ffffff;
+}
+
+nav .logo {
+  font-size: 25px;
+}
+
+nav li {
+  padding: 12px;
+}
+
+.navbar a {
+  color: #2d2a24;
+}
+
+.navbar a:hover {
+  font-style: italic;
 }
