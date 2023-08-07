@@ -3,6 +3,10 @@
   --paragraph-font: "Montserrat", sans-serif;
 }
 
+body {
+  color: #2d2a24;
+}
+
 nav {
   background-color: #ffffff;
 }
@@ -17,8 +21,51 @@ nav li {
 
 .navbar a {
   color: #2d2a24;
+  font-family: var(--paragraph-font);
 }
 
 .navbar a:hover {
-  font-style: italic;
+  color: #5dc275;
+  transition: all 400ms ease;
+}
+
+.free-shipping-banner {
+  background-color: #5dc275;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.hero {
+  background-color: #e0f5f0;
+}
+
+.hero h1 {
+  font-family: var(--heading-font);
+  font-size: 60px;
+  margin: 0;
+}
+
+.hero p {
+  font-family: var(--paragraph-font);
+  font-size: 22px;
+  line-height: 35px;
+}
+
+.hero img {
+  max-width: 700px;
+  margin-right: -125px;
+}
+
+.hero a {
+  text-decoration: none;
+  background-color: #ef8542;
+  padding: 20px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: var(--paragraph-font);
+  font-size: 18px;
+}
+
+.hero a:hover {
+  background-color: #e8803f;
 }
