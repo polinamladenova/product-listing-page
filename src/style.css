@@ -31,8 +31,17 @@ nav li {
 
 .free-shipping-banner {
   background-color: #5dc275;
-  color: #ffffff;
   padding: 5px;
+}
+
+.free-shipping-banner a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.free-shipping-banner a:hover {
+  text-decoration: underline;
+  transition: all 400ms ease;
 }
 
 .hero {
@@ -68,4 +77,5 @@ nav li {
 
 .hero a:hover {
   background-color: #e8803f;
+  transition: all 400ms ease;
 }

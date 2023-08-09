@@ -1,0 +1,271 @@
+[
+  {
+    "name": "Monstera deliciosa",
+    "cat": "foliage",
+    "size": "large",
+    "light": "high",
+    "price": 75,
+    "desc": "Big & Tropical"
+  },
+
+  {
+    "name": "Alocasia",
+    "cat": "foliage",
+    "size": "large",
+    "light": "low",
+    "price": 25,
+    "desc": "Vibrant & Intense"
+  },
+
+  {
+    "name": "Areca Palm",
+    "cat": "foliage",
+    "size": "large",
+    "light": "high",
+    "price": 30,
+    "desc": "Tropical & Airy"
+  },
+
+  {
+    "name": "Bird of Paradise",
+    "cat": "foliage",
+    "size": "large",
+    "light": "high",
+    "price": 45,
+    "desc": "Tall & Proud"
+  },
+
+  {
+    "name": "dracaena",
+    "cat": "foliage",
+    "size": "large",
+    "light": "high",
+    "price": 40,
+    "desc": "Tropical & Green"
+  },
+
+  {
+    "name": "Ficus Benjamina",
+    "cat": "foliage",
+    "size": "large",
+    "light": "low",
+    "price": 45,
+    "desc": "Lively & Vibrant"
+  },
+
+  {
+    "name": "Money Plant",
+    "cat": "foliage",
+    "size": "large",
+    "light": "high",
+    "price": 25,
+    "desc": "Full & Tall"
+  },
+
+  {
+    "name": "Pothos",
+    "cat": "foliage",
+    "size": "large",
+    "light": "low",
+    "price": 25,
+    "desc": "Climbing & Variegated"
+  },
+
+  {
+    "name": "Rubber Plant",
+    "cat": "foliage",
+    "size": "large",
+    "light": "low",
+    "price": 30,
+    "desc": "Fast Growing & Lively"
+  },
+
+  {
+    "name": "Yucca",
+    "cat": "foliage",
+    "size": "large",
+    "light": "high",
+    "price": 30,
+    "desc": "Tropical & Vibrant"
+  },
+
+  {
+    "name": "Aglaonema",
+    "cat": "foliage",
+    "size": "medium",
+    "light": "low",
+    "price": 15,
+    "desc": "Multicoloured & Vibrant"
+  },
+
+  {
+    "name": "Begonia Maculata",
+    "cat": "foliage",
+    "size": "medium",
+    "light": "high",
+    "price": 25,
+    "desc": "Spotted & Airy"
+  },
+
+  {
+    "name": "Begonia Rex",
+    "cat": "foliage",
+    "size": "medium",
+    "light": "high",
+    "price": 30,
+    "desc": "Intense & Lively"
+  },
+
+  {
+    "name": "Boston Fern",
+    "cat": "foliage",
+    "size": "medium",
+    "light": "high",
+    "price": 15,
+    "desc": "Full & Green"
+  },
+
+  {
+    "name": "Hoya",
+    "cat": "foliage",
+    "size": "medium",
+    "light": "low",
+    "price": 20,
+    "desc": "Climbing & Hanging"
+  },
+
+  {
+    "name": "Peperomia",
+    "cat": "foliage",
+    "size": "medium",
+    "light": "low",
+    "price": 35,
+    "desc": "decorative & Fast Growing"
+  },
+
+  {
+    "name": "Philodendrum",
+    "cat": "foliage",
+    "size": "medium",
+    "light": "low",
+    "price": 30,
+    "desc": "Green & Vibrant"
+  },
+
+  {
+    "name": "Piper",
+    "cat": "foliage",
+    "size": "medium",
+    "light": "high",
+    "price": 25,
+    "desc": "Variegated & Lively"
+  },
+
+  {
+    "name": "African Violet",
+    "cat": "foliage",
+    "size": "small",
+    "light": "high",
+    "price": 15,
+    "desc": "Vibrant & Airy"
+  },
+
+  {
+    "name": "Air Plant",
+    "cat": "foliage",
+    "size": "small",
+    "light": "low",
+    "price": 20,
+    "desc": "Easy & Elegant"
+  },
+
+  {
+    "name": "African Milk Tree",
+    "cat": "cactus",
+    "size": "large",
+    "light": "high",
+    "price": 45,
+    "desc": "Green & Intense"
+  },
+
+  {
+    "name": "Barrel Cactus",
+    "cat": "cactus",
+    "size": "large",
+    "light": "high",
+    "price": 30,
+    "desc": "Spikey & Youthful"
+  },
+
+  {
+    "name": "Candelabra",
+    "cat": "cactus",
+    "size": "large",
+    "light": "high",
+    "price": 40,
+    "desc": "Tall & Intense"
+  },
+
+  {
+    "name": "Snake Plant",
+    "cat": "cactus",
+    "size": "large",
+    "light": "low",
+    "price": 35,
+    "desc": "Easy & Tropical"
+  },
+
+  {
+    "name": "Aloe Vera",
+    "cat": "cactus",
+    "size": "medium",
+    "light": "high",
+    "price": 40,
+    "desc": "Green & Medicinal"
+  },
+
+  {
+    "name": "Bear Paw",
+    "cat": "cactus",
+    "size": "small",
+    "light": "low",
+    "price": 20,
+    "desc": "Lovely & Airy"
+  },
+
+  {
+    "name": "Bunny Ear",
+    "cat": "cactus",
+    "size": "small",
+    "light": "high",
+    "price": 25,
+    "desc": "Attractive & Interesting"
+  },
+
+  {
+    "name": "Crassula Jade",
+    "cat": "cactus",
+    "size": "small",
+    "light": "low",
+    "price": 15,
+    "desc": "Easy & Intense"
+  },
+
+  {
+    "name": "Echeveria",
+    "cat": "cactus",
+    "size": "small",
+    "light": "high",
+    "price": 15,
+    "desc": "Cute & Vibrant"
+  },
+
+  {
+    "name": "Haworthia",
+    "cat": "cactus",
+    "size": "small",
+    "light": "low",
+    "price": 10,
+    "desc": "Striped & Charming"
+  }
+]
