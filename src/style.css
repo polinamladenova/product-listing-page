@@ -26,7 +26,7 @@ nav li {
 
 .navbar a:hover {
   color: #5dc275;
-  transition: all 400ms ease;
+  transition: all 200ms ease;
 }
 
 .free-shipping-banner {
@@ -41,7 +41,7 @@ nav li {
 
 .free-shipping-banner a:hover {
   text-decoration: underline;
-  transition: all 400ms ease;
+  transition: all 200ms ease;
 }
 
 .hero {
@@ -76,6 +76,22 @@ nav li {
 }
 
 .hero a:hover {
-  background-color: #e8803f;
-  transition: all 400ms ease;
+  background-color: #5dc275;
+  transition: all 200ms ease;
+}
+
+.product-category-header {
+  padding: 30px 50px;
+  color: #2d2a24;
+}
+
+.product-category-header h1 {
+  font-family: var(--heading-font);
+  font-size: 60px;
+}
+
+.product-category-header p {
+  font-family: var(--paragraph-font);
+  font-size: 16px;
+  opacity: 0.7;
 }
