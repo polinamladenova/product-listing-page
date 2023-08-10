@@ -64,7 +64,7 @@ nav li {
 
 .hero a {
   text-decoration: none;
-  background-color: #ef8542;
+  background-color: #e9935e;
   padding: 20px;
   border-radius: 4px;
   color: #ffffff;
@@ -73,7 +73,7 @@ nav li {
 }
 
 .hero a:hover {
-  background-color: #5dc275;
+  background-color: #d78856;
   transition: all 200ms ease;
 }
 

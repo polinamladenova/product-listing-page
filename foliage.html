@@ -90,6 +90,7 @@
       <p class="m-0 opacity-75">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
+      <!-- Filters====================== -->
       <span class="filters d-flex justify-content-end">
         <p
           class="me-4"
@@ -107,7 +108,15 @@
           id="offcanvasScrolling"
           aria-labelledby="offcanvasScrollingLabel"
         >
-          <div class="offcanvas-body">
+          <div class="offcanvas-body p-4">
+            <div class="d-flex justify-content-end">
+              <button
+                type="button"
+                class="btn-close justify-content-end"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
             <h5>Size</h5>
             <ul>
               <li>
@@ -116,16 +125,44 @@
                   name="startingReserves"
                   value="starting"
                   id="starting"
-                /><label for="starting"></label>Small
+                /><label for="starting"></label> Small
               </li>
-              <li>Medium</li>
-              <li>Large</li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="startingReserves"
+                  value="starting"
+                  id="starting"
+                /><label for="starting"></label> Medium
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="startingReserves"
+                  value="starting"
+                  id="starting"
+                /><label for="starting"></label> Large
+              </li>
             </ul>
+            <hr />
             <h5>Light</h5>
             <ul>
-              <li>Low Light</li>
-              <li>Bright-Medium Indirect</li>
-              <li>Bright Light</li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="startingReserves"
+                  value="starting"
+                  id="starting"
+                /><label for="starting"></label> Low Light
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="startingReserves"
+                  value="starting"
+                  id="starting"
+                /><label for="starting"></label> Bright Light
+              </li>
             </ul>
           </div>
         </div>
@@ -133,7 +170,6 @@
       </span>
       <hr class="m-0" />
     </div>
-
     <!-- Script==================================== -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
