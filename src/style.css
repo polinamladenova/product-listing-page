@@ -111,3 +111,71 @@ nav li {
   font-family: var(--heading-font);
   color: #5dc275;
 }
+
+.card {
+  border-radius: 4px;
+}
+
+.card:hover {
+  border: solid 1px #9c9b9b;
+}
+
+.card-body {
+  font-family: var(--paragraph-font);
+}
+
+.card-body .card-title {
+  font-family: var(--heading-font);
+}
+
+.card-body i {
+  font-size: 20px;
+}
+
+.card-body i:hover {
+  color: #5dc275;
+}
+
+/* Rating */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0px;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 18px;
+  color: #ccc;
+}
+.rate:not(:checked) > label:before {
+  content: "♥ ";
+}
+.rate > input:checked ~ label {
+  color: #5dc275;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #5dc275;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #5dc275;
+}
+
+/* End Rating */
