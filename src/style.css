@@ -31,11 +31,8 @@ nav li {
 
 .free-shipping-banner {
   background-color: #5dc275;
-  padding: 5px;
-}
-
-.free-shipping-banner a {
-  text-decoration: none;
+  padding: 7px;
+  font-family: var(--paragraph-font);
   color: #ffffff;
 }
 
@@ -93,5 +90,24 @@ nav li {
 .product-category-header p {
   font-family: var(--paragraph-font);
   font-size: 16px;
-  opacity: 0.7;
+}
+
+.product-category-header .filters p:hover {
+  color: #5dc275;
+}
+
+.offcanvas-body {
+  font-family: var(--paragraph-font);
+}
+
+.offcanvas-body ul {
+  list-style: none;
+  line-height: 33px;
+  color: #2d2a24;
+  font-family: var(--paragraph-font);
+}
+
+.offcanvas-body h5 {
+  font-family: var(--heading-font);
+  color: #5dc275;
 }
