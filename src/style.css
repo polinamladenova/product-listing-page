@@ -118,6 +118,7 @@ nav li {
 
 .card:hover {
   border: solid 1px #9c9b9b;
+  transition: all 200ms ease;
 }
 
 .card-body {
@@ -179,3 +180,12 @@ nav li {
 }
 
 /* End Rating */
+
+.toast {
+  background-color: #5dc275;
+  color: #ffffff;
+}
+
+.toast button {
+  color: #ffffff;
+}

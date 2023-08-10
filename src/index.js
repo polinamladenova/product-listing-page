@@ -7,5 +7,3 @@ if (toastTrigger) {
     toastBootstrap.show();
   });
 }
-
-toastTrigger;
