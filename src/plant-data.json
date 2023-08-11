@@ -16,7 +16,8 @@
       "size": "large",
       "light": "low",
       "price": 25,
-      "desc": "Vibrant & Intense"
+      "desc": "Vibrant & Intense",
+      "img": "/images/products/alocasia-2.jpg"
     },
 
     {
@@ -25,7 +26,8 @@
       "size": "large",
       "light": "high",
       "price": 30,
-      "desc": "Tropical & Airy"
+      "desc": "Tropical & Airy",
+      "img": "/images/products/areca-palm-2.webp"
     },
 
     {
