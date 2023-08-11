@@ -10,14 +10,13 @@ if (toastTrigger) {
 }
 
 function showProductInfo(data) {
-  let productInfo = data.products;
   console.log(data.products);
   let productTileElement = document.querySelector("#productTile");
 
   let productHTML = `<div class="row mb-5">
         <div class="col-md-4">
           <div class="card" style="width: 24rem">
-            <img src="/images/plant.jpg" class="card-img-top" alt="..." />
+            <img src="${data.products[0].img}" class="card-img-top" alt="..." />
             <div class="card-body">
               <span class="d-flex mb-1">
                 <div class="me-auto p-0">
@@ -71,7 +70,8 @@ function showProductInfo(data) {
               </div>
             </div>
           </div>
-        </div>`;
+        </div>
+        `;
 
   productTileElement.innerHTML = productHTML;
 }
