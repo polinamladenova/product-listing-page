@@ -112,6 +112,10 @@ nav li {
   color: #5dc275;
 }
 
+.product-grid {
+  padding-top: 0px;
+}
+
 .card {
   border-radius: 4px;
 }
@@ -158,11 +162,11 @@ nav li {
   overflow: hidden;
   white-space: nowrap;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 25px;
   color: #ccc;
 }
 .rate:not(:checked) > label:before {
-  content: "♥ ";
+  content: "✿ ";
 }
 .rate > input:checked ~ label {
   color: #5dc275;
