@@ -7,7 +7,7 @@
       "light": "high",
       "price": 75,
       "desc": "Big & Tropical",
-      "img": "/images/products/monstera-deliciosa-2.webp"
+      "img": "/images/products/monstera-deliciosa.webp"
     },
 
     {
@@ -17,7 +17,7 @@
       "light": "low",
       "price": 25,
       "desc": "Vibrant & Intense",
-      "img": "/images/products/alocasia-2.jpg"
+      "img": "/images/products/alocasia.jpg"
     },
 
     {
@@ -27,7 +27,7 @@
       "light": "high",
       "price": 30,
       "desc": "Tropical & Airy",
-      "img": "/images/products/areca-palm-2.webp"
+      "img": "/images/products/areca-palm.webp"
     },
 
     {
@@ -36,7 +36,8 @@
       "size": "large",
       "light": "high",
       "price": 45,
-      "desc": "Tall & Proud"
+      "desc": "Tall & Proud",
+      "img": "/images/products/bird-of-paradise.jpg"
     },
 
     {
@@ -45,7 +46,8 @@
       "size": "large",
       "light": "high",
       "price": 40,
-      "desc": "Tropical & Green"
+      "desc": "Tropical & Green",
+      "img": "/images/products/dracaena.jpg"
     },
 
     {
@@ -54,7 +56,8 @@
       "size": "large",
       "light": "low",
       "price": 45,
-      "desc": "Lively & Vibrant"
+      "desc": "Lively & Vibrant",
+      "img": "/images/products/ficus-benjamin.jpg"
     },
 
     {
@@ -63,7 +66,8 @@
       "size": "large",
       "light": "high",
       "price": 25,
-      "desc": "Full & Tall"
+      "desc": "Full & Tall",
+      "img": "/images/products/money-plant.jpg"
     },
 
     {
@@ -72,7 +76,8 @@
       "size": "large",
       "light": "low",
       "price": 25,
-      "desc": "Climbing & Variegated"
+      "desc": "Climbing & Variegated",
+      "img": "/images/products/pothos-marble.jpg"
     },
 
     {
@@ -81,7 +86,8 @@
       "size": "large",
       "light": "low",
       "price": 30,
-      "desc": "Fast Growing & Lively"
+      "desc": "Fast Growing & Lively",
+      "img": "/images/products/rubber-plant.webp"
     },
 
     {
@@ -90,7 +96,8 @@
       "size": "large",
       "light": "high",
       "price": 30,
-      "desc": "Tropical & Vibrant"
+      "desc": "Tropical & Vibrant",
+      "img": "/images/products/yucca.jpg"
     },
 
     {
@@ -99,7 +106,8 @@
       "size": "medium",
       "light": "low",
       "price": 15,
-      "desc": "Multicoloured & Vibrant"
+      "desc": "Multicoloured & Vibrant",
+      "img": "/images/products/aglaonema.webp"
     },
 
     {
@@ -108,7 +116,8 @@
       "size": "medium",
       "light": "high",
       "price": 25,
-      "desc": "Spotted & Airy"
+      "desc": "Spotted & Airy",
+      "img": "/images/products/begonia-maculata.webp"
     },
 
     {
@@ -117,7 +126,8 @@
       "size": "medium",
       "light": "high",
       "price": 30,
-      "desc": "Intense & Lively"
+      "desc": "Intense & Lively",
+      "img": "/images/products/begonia-rex.jpeg"
     },
 
     {
@@ -126,7 +136,8 @@
       "size": "medium",
       "light": "high",
       "price": 15,
-      "desc": "Full & Green"
+      "desc": "Full & Green",
+      "img": "/images/products/fern.webp"
     },
 
     {
@@ -135,7 +146,8 @@
       "size": "medium",
       "light": "low",
       "price": 20,
-      "desc": "Climbing & Hanging"
+      "desc": "Climbing & Hanging",
+      "img": "/images/products/hoya-australis.webp"
     },
 
     {
@@ -144,7 +156,8 @@
       "size": "medium",
       "light": "low",
       "price": 35,
-      "desc": "decorative & Fast Growing"
+      "desc": "decorative & Fast Growing",
+      "img": "/images/products/peperomia.webp"
     },
 
     {
@@ -153,7 +166,8 @@
       "size": "medium",
       "light": "low",
       "price": 30,
-      "desc": "Green & Vibrant"
+      "desc": "Green & Vibrant",
+      "img": "/images/products/philodendrum.jpg"
     },
 
     {
@@ -162,7 +176,8 @@
       "size": "medium",
       "light": "high",
       "price": 25,
-      "desc": "Variegated & Lively"
+      "desc": "Variegated & Lively",
+      "img": "/images/products/piper.webp"
     },
 
     {
@@ -171,7 +186,8 @@
       "size": "small",
       "light": "high",
       "price": 15,
-      "desc": "Vibrant & Airy"
+      "desc": "Vibrant & Airy",
+      "img": "/images/products/african-violet.jpg"
     },
 
     {
@@ -180,7 +196,8 @@
       "size": "small",
       "light": "low",
       "price": 20,
-      "desc": "Easy & Elegant"
+      "desc": "Easy & Elegant",
+      "img": "/images/products/air-plant.jpg"
     },
 
     {
@@ -189,7 +206,8 @@
       "size": "large",
       "light": "high",
       "price": 45,
-      "desc": "Green & Intense"
+      "desc": "Green & Intense",
+      "img": "/images/products/african-milk-tree.webp"
     },
 
     {
@@ -198,7 +216,8 @@
       "size": "large",
       "light": "high",
       "price": 30,
-      "desc": "Spikey & Youthful"
+      "desc": "Spikey & Youthful",
+      "img": "/images/products/barrel-cactus.webp"
     },
 
     {
@@ -207,7 +226,8 @@
       "size": "large",
       "light": "high",
       "price": 40,
-      "desc": "Tall & Intense"
+      "desc": "Tall & Intense",
+      "img": "/images/products/candelabra-cactus.webp"
     },
 
     {
@@ -216,7 +236,8 @@
       "size": "large",
       "light": "low",
       "price": 35,
-      "desc": "Easy & Tropical"
+      "desc": "Easy & Tropical",
+      "img": "/images/products/snake-plant.jpg"
     },
 
     {
@@ -225,7 +246,8 @@
       "size": "medium",
       "light": "high",
       "price": 40,
-      "desc": "Green & Medicinal"
+      "desc": "Green & Medicinal",
+      "img": "/images/products/aloe-vera.jpg"
     },
 
     {
@@ -234,7 +256,8 @@
       "size": "small",
       "light": "low",
       "price": 20,
-      "desc": "Lovely & Airy"
+      "desc": "Lovely & Airy",
+      "img": "/images/products/bear-paw.webp"
     },
 
     {
@@ -243,7 +266,8 @@
       "size": "small",
       "light": "high",
       "price": 25,
-      "desc": "Attractive & Interesting"
+      "desc": "Attractive & Interesting",
+      "img": "/images/products/bunny-ear.webp"
     },
 
     {
@@ -252,7 +276,8 @@
       "size": "small",
       "light": "low",
       "price": 15,
-      "desc": "Easy & Intense"
+      "desc": "Easy & Intense",
+      "img": "/images/products/crassula-jade.jpg"
     },
 
     {
@@ -261,7 +286,8 @@
       "size": "small",
       "light": "high",
       "price": 15,
-      "desc": "Cute & Vibrant"
+      "desc": "Cute & Vibrant",
+      "img": "/images/products/echeveria.webp"
     },
 
     {
@@ -270,7 +296,8 @@
       "size": "small",
       "light": "low",
       "price": 10,
-      "desc": "Striped & Charming"
+      "desc": "Striped & Charming",
+      "img": "/images/products/haworthia-fasciata.jpg"
     }
   ]
 }
