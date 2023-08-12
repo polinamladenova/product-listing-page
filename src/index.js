@@ -1,18 +1,605 @@
 //Toast trigger function=============
-const toastTrigger = document.getElementById("liveToastBtn");
-const toastLiveExample = document.getElementById("liveToast");
+let toastTrigger = document.getElementById("liveToastBtn");
+let toastLiveExample = document.getElementById("liveToast");
 
 if (toastTrigger) {
-  const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample);
+  let toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample);
   toastTrigger.addEventListener("click", () => {
     toastBootstrap.show();
   });
 }
 
-function showProductInfo(data) {
-  let productTileElement = document.querySelector("#productTile");
+function showCactusProductInfo(data) {
+  let cactusProductTileElement = document.querySelector("#cactusProductTile");
 
-  let productHTML = `<div class="product-grid container-fluid ps-5" id="productTile">
+  let cactusProductHTML = `<div class="product-grid container-fluid ps-5">
+      <div class="row mb-5">
+        <div class="col-md-4">
+          <div class="card" style="width: 24rem">
+            <img src="${data.products[20].img}" class="card-img-top" alt="${data.products[20].desc}" />
+            <div class="card-body">
+              <span class="d-flex mb-1">
+                <div class="me-auto p-0">
+                  <h5 class="card-title">${data.products[20].name}</h5>
+                </div>
+                <div class="p-1">
+                  <i
+                    class="fa-solid fa-cart-shopping"
+                    type="button"
+                    id="liveToastBtn"
+                  ></i>
+                  <div
+                    class="toast-container position-fixed bottom-0 end-0 p-3"
+                  >
+                    <div
+                      id="liveToast"
+                      class="toast align-items-center"
+                      role="alert"
+                      aria-live="assertive"
+                      aria-atomic="true"
+                    >
+                      <div class="d-flex">
+                        <div class="toast-body">
+                          <i class="fa-solid fa-check"></i> A new plant friend
+                          has been added to your cart.
+                        </div>
+                        <button
+                          type="button"
+                          class="btn-close me-2 m-auto"
+                          data-bs-dismiss="toast"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+              <p class="card-text opacity-75">${data.products[20].desc}</p>
+              <h5 class="product-price">$${data.products[20].price}</h5>
+              <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 24rem">
+            <img src="${data.products[21].img}" class="card-img-top" alt="${data.products[21].desc}" />
+            <div class="card-body">
+              <span class="d-flex mb-1">
+                <div class="me-auto p-0">
+                  <h5 class="card-title">${data.products[21].name}</h5>
+                </div>
+                <div class="p-1">
+                  <i
+                    class="fa-solid fa-cart-shopping"
+                    type="button"
+                    id="liveToastBtn"
+                  ></i>
+                  <div
+                    class="toast-container position-fixed bottom-0 end-0 p-3"
+                  >
+                    <div
+                      id="liveToast"
+                      class="toast align-items-center"
+                      role="alert"
+                      aria-live="assertive"
+                      aria-atomic="true"
+                    >
+                      <div class="d-flex">
+                        <div class="toast-body">
+                          <i class="fa-solid fa-check"></i> A new plant friend
+                          has been added to your cart.
+                        </div>
+                        <button
+                          type="button"
+                          class="btn-close me-2 m-auto"
+                          data-bs-dismiss="toast"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+              <p class="card-text opacity-75">${data.products[21].desc}</p>
+              <h5 class="product-price">$${data.products[21].price}</h5>
+              <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 24rem">
+            <img src="${data.products[22].img}" class="card-img-top" alt="${data.products[22].desc}" />
+            <div class="card-body">
+              <span class="d-flex mb-1">
+                <div class="me-auto p-0">
+                  <h5 class="card-title">${data.products[22].name}</h5>
+                </div>
+                <div class="p-1">
+                  <i
+                    class="fa-solid fa-cart-shopping"
+                    type="button"
+                    id="liveToastBtn"
+                  ></i>
+                  <div
+                    class="toast-container position-fixed bottom-0 end-0 p-3"
+                  >
+                    <div
+                      id="liveToast"
+                      class="toast align-items-center"
+                      role="alert"
+                      aria-live="assertive"
+                      aria-atomic="true"
+                    >
+                      <div class="d-flex">
+                        <div class="toast-body">
+                          <i class="fa-solid fa-check"></i> A new plant friend
+                          has been added to your cart.
+                        </div>
+                        <button
+                          type="button"
+                          class="btn-close me-2 m-auto"
+                          data-bs-dismiss="toast"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+              <p class="card-text opacity-75">${data.products[22].desc}</p>
+              <h5 class="product-price">$${data.products[22].price}</h5>
+              <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-md-4">
+          <div class="card" style="width: 24rem">
+            <img src="${data.products[23].img}" class="card-img-top" alt="${data.products[23].desc}" />
+            <div class="card-body">
+              <span class="d-flex mb-1">
+                <div class="me-auto p-0">
+                  <h5 class="card-title">${data.products[23].name}</h5>
+                </div>
+                <div class="p-1">
+                  <i
+                    class="fa-solid fa-cart-shopping"
+                    type="button"
+                    id="liveToastBtn"
+                  ></i>
+                  <div
+                    class="toast-container position-fixed bottom-0 end-0 p-3"
+                  >
+                    <div
+                      id="liveToast"
+                      class="toast align-items-center"
+                      role="alert"
+                      aria-live="assertive"
+                      aria-atomic="true"
+                    >
+                      <div class="d-flex">
+                        <div class="toast-body">
+                          <i class="fa-solid fa-check"></i> A new plant friend
+                          has been added to your cart.
+                        </div>
+                        <button
+                          type="button"
+                          class="btn-close me-2 m-auto"
+                          data-bs-dismiss="toast"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+              <p class="card-text opacity-75">${data.products[23].desc}</p>
+              <h5 class="product-price">$${data.products[23].price}</h5>
+              <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 24rem">
+            <img src="${data.products[24].img}" class="card-img-top" alt="${data.products[24].desc}" />
+            <div class="card-body">
+              <span class="d-flex mb-1">
+                <div class="me-auto p-0">
+                  <h5 class="card-title">${data.products[24].name}</h5>
+                </div>
+                <div class="p-1">
+                  <i
+                    class="fa-solid fa-cart-shopping"
+                    type="button"
+                    id="liveToastBtn"
+                  ></i>
+                  <div
+                    class="toast-container position-fixed bottom-0 end-0 p-3"
+                  >
+                    <div
+                      id="liveToast"
+                      class="toast align-items-center"
+                      role="alert"
+                      aria-live="assertive"
+                      aria-atomic="true"
+                    >
+                      <div class="d-flex">
+                        <div class="toast-body">
+                          <i class="fa-solid fa-check"></i> A new plant friend
+                          has been added to your cart.
+                        </div>
+                        <button
+                          type="button"
+                          class="btn-close me-2 m-auto"
+                          data-bs-dismiss="toast"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+              <p class="card-text opacity-75">${data.products[24].desc}</p>
+              <h5 class="product-price">$${data.products[24].price}</h5>
+              <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 24rem">
+            <img src="${data.products[25].img}" class="card-img-top" alt="${data.products[25].desc}" />
+            <div class="card-body">
+              <span class="d-flex mb-1">
+                <div class="me-auto p-0">
+                  <h5 class="card-title">${data.products[25].name}</h5>
+                </div>
+                <div class="p-1">
+                  <i
+                    class="fa-solid fa-cart-shopping"
+                    type="button"
+                    id="liveToastBtn"
+                  ></i>
+                  <div
+                    class="toast-container position-fixed bottom-0 end-0 p-3"
+                  >
+                    <div
+                      id="liveToast"
+                      class="toast align-items-center"
+                      role="alert"
+                      aria-live="assertive"
+                      aria-atomic="true"
+                    >
+                      <div class="d-flex">
+                        <div class="toast-body">
+                          <i class="fa-solid fa-check"></i> A new plant friend
+                          has been added to your cart.
+                        </div>
+                        <button
+                          type="button"
+                          class="btn-close me-2 m-auto"
+                          data-bs-dismiss="toast"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+              <p class="card-text opacity-75">${data.products[25].desc}</p>
+              <h5 class="product-price">$${data.products[25].price}</h5>
+              <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-md-4">
+          <div class="card" style="width: 24rem">
+            <img src="${data.products[26].img}" class="card-img-top" alt="${data.products[26].desc}" />
+            <div class="card-body">
+              <span class="d-flex mb-1">
+                <div class="me-auto p-0">
+                  <h5 class="card-title">${data.products[26].name}</h5>
+                </div>
+                <div class="p-1">
+                  <i
+                    class="fa-solid fa-cart-shopping"
+                    type="button"
+                    id="liveToastBtn"
+                  ></i>
+                  <div
+                    class="toast-container position-fixed bottom-0 end-0 p-3"
+                  >
+                    <div
+                      id="liveToast"
+                      class="toast align-items-center"
+                      role="alert"
+                      aria-live="assertive"
+                      aria-atomic="true"
+                    >
+                      <div class="d-flex">
+                        <div class="toast-body">
+                          <i class="fa-solid fa-check"></i> A new plant friend
+                          has been added to your cart.
+                        </div>
+                        <button
+                          type="button"
+                          class="btn-close me-2 m-auto"
+                          data-bs-dismiss="toast"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+              <p class="card-text opacity-75">${data.products[26].desc}</p>
+              <h5 class="product-price">$${data.products[26].price}</h5>
+              <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 24rem">
+            <img src="${data.products[27].img}" class="card-img-top" alt="${data.products[27].desc}" />
+            <div class="card-body">
+              <span class="d-flex mb-1">
+                <div class="me-auto p-0">
+                  <h5 class="card-title">${data.products[27].name}</h5>
+                </div>
+                <div class="p-1">
+                  <i
+                    class="fa-solid fa-cart-shopping"
+                    type="button"
+                    id="liveToastBtn"
+                  ></i>
+                  <div
+                    class="toast-container position-fixed bottom-0 end-0 p-3"
+                  >
+                    <div
+                      id="liveToast"
+                      class="toast align-items-center"
+                      role="alert"
+                      aria-live="assertive"
+                      aria-atomic="true"
+                    >
+                      <div class="d-flex">
+                        <div class="toast-body">
+                          <i class="fa-solid fa-check"></i> A new plant friend
+                          has been added to your cart.
+                        </div>
+                        <button
+                          type="button"
+                          class="btn-close me-2 m-auto"
+                          data-bs-dismiss="toast"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+              <p class="card-text opacity-75">${data.products[27].desc}</p>
+              <h5 class="product-price">$${data.products[27].price}</h5>
+              <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 24rem">
+            <img src="${data.products[28].img}" class="card-img-top" alt="${data.products[28].desc}" />
+            <div class="card-body">
+              <span class="d-flex mb-1">
+                <div class="me-auto p-0">
+                  <h5 class="card-title">${data.products[28].name}</h5>
+                </div>
+                <div class="p-1">
+                  <i
+                    class="fa-solid fa-cart-shopping"
+                    type="button"
+                    id="liveToastBtn"
+                  ></i>
+                  <div
+                    class="toast-container position-fixed bottom-0 end-0 p-3"
+                  >
+                    <div
+                      id="liveToast"
+                      class="toast align-items-center"
+                      role="alert"
+                      aria-live="assertive"
+                      aria-atomic="true"
+                    >
+                      <div class="d-flex">
+                        <div class="toast-body">
+                          <i class="fa-solid fa-check"></i> A new plant friend
+                          has been added to your cart.
+                        </div>
+                        <button
+                          type="button"
+                          class="btn-close me-2 m-auto"
+                          data-bs-dismiss="toast"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+              <p class="card-text opacity-75">${data.products[28].desc}</p>
+              <h5 class="product-price">$${data.products[28].price}</h5>
+              <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-md-4">
+          <div class="card" style="width: 24rem">
+            <img src="${data.products[29].img}" class="card-img-top" alt="${data.products[29].desc}" />
+            <div class="card-body">
+              <span class="d-flex mb-1">
+                <div class="me-auto p-0">
+                  <h5 class="card-title">${data.products[29].name}</h5>
+                </div>
+                <div class="p-1">
+                  <i
+                    class="fa-solid fa-cart-shopping"
+                    type="button"
+                    id="liveToastBtn"
+                  ></i>
+                  <div
+                    class="toast-container position-fixed bottom-0 end-0 p-3"
+                  >
+                    <div
+                      id="liveToast"
+                      class="toast align-items-center"
+                      role="alert"
+                      aria-live="assertive"
+                      aria-atomic="true"
+                    >
+                      <div class="d-flex">
+                        <div class="toast-body">
+                          <i class="fa-solid fa-check"></i> A new plant friend
+                          has been added to your cart.
+                        </div>
+                        <button
+                          type="button"
+                          class="btn-close me-2 m-auto"
+                          data-bs-dismiss="toast"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+              <p class="card-text opacity-75">${data.products[29].desc}</p>
+              <h5 class="product-price">$${data.products[29].price}</h5>
+              <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>`;
+
+  cactusProductTileElement.innerHTML = cactusProductHTML;
+}
+
+function showFoliageProductInfo(data) {
+  let foliageProductTileElement = document.querySelector("#foliageProductTile");
+
+  let foliageProductHTML = `<div class="product-grid container-fluid ps-5">
       <div class="row mb-5">
         <div class="col-md-4">
           <div class="card" style="width: 24rem">
@@ -1168,9 +1755,13 @@ function showProductInfo(data) {
         </div>
     </div>`;
 
-  productTileElement.innerHTML = productHTML;
+  foliageProductTileElement.innerHTML = foliageProductHTML;
 }
 
 fetch("/src/plant-data.json")
   .then((response) => response.json())
-  .then((data) => showProductInfo(data));
+  .then((data) => showCactusProductInfo(data));
+
+fetch("/src/plant-data.json")
+  .then((response) => response.json())
+  .then((data) => showFoliageProductInfo(data));

@@ -20,7 +20,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/src/style.css" />
-    <title>Succulents & Cacti | The Leaf</title>
+    <title>Foliage Plants | The Leaf</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   </head>
   <body>
@@ -87,16 +87,97 @@
     <!-- Category Header=================== -->
     <div class="product-category-header">
       <h1 class="mb-3">Succulents & Cacti</h1>
-      <p class="mb-4">
+      <p class="m-0 opacity-75">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
-      <hr />
+      <!-- Filters====================== -->
+      <span class="filters d-flex justify-content-end">
+        <p
+          class="me-4"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasScrolling"
+          aria-controls="offcanvasScrolling"
+        >
+          Show Filters <i class="fa-solid fa-filter"></i>
+        </p>
+        <div
+          class="offcanvas offcanvas-start"
+          data-bs-scroll="true"
+          data-bs-backdrop="false"
+          tabindex="-1"
+          id="offcanvasScrolling"
+          aria-labelledby="offcanvasScrollingLabel"
+        >
+          <div class="offcanvas-body p-4">
+            <div class="d-flex justify-content-end">
+              <button
+                type="button"
+                class="btn-close justify-content-end"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <h5>Size</h5>
+            <ul>
+              <li>
+                <input
+                  type="checkbox"
+                  name="startingReserves"
+                  value="starting"
+                  id="starting"
+                /><label for="starting"></label> Small
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="startingReserves"
+                  value="starting"
+                  id="starting"
+                /><label for="starting"></label> Medium
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="startingReserves"
+                  value="starting"
+                  id="starting"
+                /><label for="starting"></label> Large
+              </li>
+            </ul>
+            <hr />
+            <h5>Light</h5>
+            <ul>
+              <li>
+                <input
+                  type="checkbox"
+                  name="startingReserves"
+                  value="starting"
+                  id="starting"
+                /><label for="starting"></label> Low Light
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="startingReserves"
+                  value="starting"
+                  id="starting"
+                /><label for="starting"></label> Bright Light
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p>Sort By: Price Ascending <i class="fa-solid fa-chevron-down"></i></p>
+      </span>
+      <hr class="m-0" />
     </div>
+    <!-- Product Grid====================== -->
+    <div class="product-grid" id="cactusProductTile"></div>
     <!-- Script==================================== -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+    <script src="/src/index.js"></script>
   </body>
 </html>

@@ -64,7 +64,7 @@ nav li {
 
 .hero a {
   text-decoration: none;
-  background-color: #e9935e;
+  background-color: #459db0;
   padding: 20px;
   border-radius: 4px;
   color: #ffffff;
@@ -73,8 +73,8 @@ nav li {
 }
 
 .hero a:hover {
-  background-color: #d78856;
-  transition: all 200ms ease;
+  background-color: #4fbbd3;
+  transition: all 150ms ease;
 }
 
 .product-category-header {
