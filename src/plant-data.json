@@ -41,7 +41,7 @@
     },
 
     {
-      "name": "dracaena",
+      "name": "Dracaena",
       "cat": "foliage",
       "size": "large",
       "light": "high",
@@ -57,7 +57,7 @@
       "light": "low",
       "price": 45,
       "desc": "Lively & Vibrant",
-      "img": "/images/products/ficus-benjamin.jpg"
+      "img": "/images/products/ficus-benjamina.jpg"
     },
 
     {
