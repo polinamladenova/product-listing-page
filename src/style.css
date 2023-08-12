@@ -64,7 +64,7 @@ nav li {
 
 .hero a {
   text-decoration: none;
-  background-color: #459db0;
+  background-color: #ee7e33;
   padding: 20px;
   border-radius: 4px;
   color: #ffffff;
@@ -73,7 +73,7 @@ nav li {
 }
 
 .hero a:hover {
-  background-color: #4fbbd3;
+  background-color: #ff8c3f;
   transition: all 150ms ease;
 }
 
@@ -198,4 +198,48 @@ nav li {
 
 .toast button {
   color: #ffffff;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #f9f8f7;
+  color: #2d2a24;
+  padding: 30px 50px;
+  font-family: var(--paragraph-font);
+  line-height: 28px;
+}
+
+.footer h3,
+h5 {
+  font-family: var(--heading-font);
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul a {
+  text-decoration: none;
+  color: #2d2a24;
+}
+
+.footer ul a:hover {
+  color: #5dc275;
+  transition: all 200ms ease;
+}
+
+.footer .email-form {
+  border-radius: 4px;
+}
+
+.footer .socials a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #2d2a24;
+  padding: 5px;
+}
+
+.footer .socials a:hover {
+  color: #5dc275;
 }
