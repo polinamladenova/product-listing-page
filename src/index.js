@@ -1,14 +1,3 @@
-//Toast trigger function=============
-let toastTrigger = document.getElementById("liveToastBtn");
-let toastLiveExample = document.getElementById("liveToast");
-
-if (toastTrigger) {
-  let toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample);
-  toastTrigger.addEventListener("click", () => {
-    toastBootstrap.show();
-  });
-}
-
 function showCactusProductInfo(data) {
   let cactusProductTileElement = document.querySelector("#cactusProductTile");
 
@@ -594,6 +583,17 @@ function showCactusProductInfo(data) {
     </div>`;
 
   cactusProductTileElement.innerHTML = cactusProductHTML;
+
+  //Toast trigger function=============
+  let toastTrigger = document.getElementById("liveToastBtn");
+  let toastLiveExample = document.getElementById("liveToast");
+
+  if (toastTrigger) {
+    let toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample);
+    toastTrigger.addEventListener("click", () => {
+      toastBootstrap.show();
+    });
+  }
 }
 
 function showFoliageProductInfo(data) {
@@ -1765,6 +1765,17 @@ function showFoliageProductInfo(data) {
     </div>`;
 
   foliageProductTileElement.innerHTML = foliageProductHTML;
+
+  //Toast trigger function=============
+  let toastTrigger = document.getElementById("liveToastBtn");
+  let toastLiveExample = document.getElementById("liveToast");
+
+  if (toastTrigger) {
+    let toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample);
+    toastTrigger.addEventListener("click", () => {
+      toastBootstrap.show();
+    });
+  }
 }
 
 fetch("/src/plant-data.json")
