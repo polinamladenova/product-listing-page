@@ -46,14 +46,15 @@ nav li {
 
 .hero {
   background-color: #e0f5f0;
-  padding: 45px;
-  margin: 0;
+}
+
+.hero .col-md-5 {
+  padding-right: 90px;
 }
 
 .hero h1 {
   font-family: var(--heading-font);
-  font-size: 60px;
-  margin: 0;
+  font-size: 50px;
 }
 
 .hero p {
@@ -62,14 +63,14 @@ nav li {
 }
 
 .hero img {
-  max-width: 100%;
+  max-width: 800px;
   border-radius: 4px;
 }
 
 .hero .primary-button {
   text-decoration: none;
   background-color: #ee7e33;
-  padding: 20px;
+  padding: 15px;
   border-radius: 4px;
   color: #ffffff;
   font-size: 18px;
@@ -84,7 +85,7 @@ nav li {
 .hero .secondary-button {
   text-decoration: none;
   background-color: #ffffff;
-  padding: 20px;
+  padding: 15px;
   border-radius: 4px;
   color: #ee7e33;
   font-size: 18px;
@@ -311,8 +312,11 @@ h5 {
   .hero img {
     max-width: 100%;
     margin-top: 55px;
-    margin-bottom: 50px;
-    padding: 0;
+    margin-bottom: 70px;
+  }
+
+  .hero .col-md-5 {
+    padding-right: 0;
   }
 
   .hero h1 {
@@ -345,8 +349,11 @@ h5 {
   }
 
   .footer .socials {
-    font-size: 30px;
     text-align: center;
+  }
+
+  .footer .socials i {
+    font-size: 35px;
   }
 
   .footer .copyright-section {
@@ -354,7 +361,6 @@ h5 {
   }
 
   .footer .copyright-section a {
-    padding: 0px;
     margin-right: 10px;
     font-size: 16px;
     display: flex;
@@ -377,19 +383,10 @@ h5 {
   .filters {
     margin-top: 30px;
     display: flex;
-    padding: 0;
   }
 
   .show-filter-text {
     display: none;
-  }
-
-  .product-grid {
-    display: grid;
-  }
-
-  .product-grid .container-fluid .row {
-    margin-bottom: 0;
   }
 
   .card-img-top {
@@ -400,7 +397,6 @@ h5 {
 
   .card {
     max-width: 300px;
-    padding: 0;
     margin-top: 20px;
   }
 }
