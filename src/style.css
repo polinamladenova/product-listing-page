@@ -62,7 +62,7 @@ nav li {
   margin-right: -125px;
 }
 
-.hero a {
+.hero .primary-button {
   text-decoration: none;
   background-color: #ee7e33;
   padding: 20px;
@@ -72,8 +72,26 @@ nav li {
   font-size: 18px;
 }
 
-.hero a:hover {
-  background-color: #ff8c3f;
+.hero .primary-button:hover {
+  background-color: #e0f5f0;
+  border: solid 4px #ee7e33;
+  padding: 16px;
+  color: #ee7e33;
+}
+
+.hero .secondary-button {
+  text-decoration: none;
+  border: solid 4px #ee7e33;
+  padding: 16px;
+  border-radius: 4px;
+  color: #ee7e33;
+  font-family: var(--paragraph-font);
+  font-size: 18px;
+}
+
+.hero .secondary-button:hover {
+  background-color: #ee7e33;
+  color: #ffffff;
   transition: all 150ms ease;
 }
 
