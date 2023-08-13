@@ -112,6 +112,26 @@ nav li {
   color: #5dc275;
 }
 
+.show-filter {
+  margin: 0px;
+}
+
+.form-select {
+  border: none;
+  font-family: var(--paragraph-font);
+  color: #2d2a24;
+  max-width: 240px;
+  padding: 0px;
+}
+
+.form-select:hover {
+  color: #5dc275;
+}
+
+.form-select option {
+  font-family: var(--paragraph-font);
+}
+
 .product-grid {
   padding-top: 0px;
 }
@@ -145,6 +165,14 @@ nav li {
 
 .card-body i:hover {
   color: #5dc275;
+}
+
+.card .old-product-price {
+  text-decoration: line-through;
+}
+
+.card .new-product-price {
+  color: red;
 }
 
 /* Rating */

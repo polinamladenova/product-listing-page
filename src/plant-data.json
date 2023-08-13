@@ -26,6 +26,7 @@
       "size": "large",
       "light": "high",
       "price": 30,
+      "salePrice": 25,
       "desc": "Tropical & Airy",
       "img": "/images/products/areca-palm.webp"
     },
@@ -76,6 +77,7 @@
       "size": "large",
       "light": "low",
       "price": 25,
+      "salePrice": 20,
       "desc": "Climbing & Variegated",
       "img": "/images/products/pothos-marble.jpg"
     },
@@ -96,6 +98,7 @@
       "size": "large",
       "light": "high",
       "price": 30,
+      "salePrice": 25,
       "desc": "Tropical & Vibrant",
       "img": "/images/products/yucca.jpg"
     },

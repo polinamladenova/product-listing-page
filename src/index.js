@@ -756,7 +756,10 @@ function showFoliageProductInfo(data) {
                 </div>
               </span>
               <p class="card-text opacity-75">${data.products[2].desc}</p>
-              <h5 class="product-price">$${data.products[2].price}</h5>
+              <span class="d-flex">
+                <h5 class="new-product-price me-2">$${data.products[2].salePrice}</h5>
+                <h5 class="old-product-price">$${data.products[2].price}</h5>
+              </span>
               <div class="rate">
                 <input type="radio" id="star5" name="rate" value="5" />
                 <label for="star5" title="text">5 stars</label>
@@ -1045,7 +1048,10 @@ function showFoliageProductInfo(data) {
                 </div>
               </span>
               <p class="card-text opacity-75">${data.products[7].desc}</p>
-              <h5 class="product-price">$${data.products[7].price}</h5>
+               <span class="d-flex">
+                <h5 class="new-product-price me-2">$${data.products[7].salePrice}</h5>
+                <h5 class="old-product-price">$${data.products[7].price}</h5>
+              </span>
               <div class="rate">
                 <input type="radio" id="star5" name="rate" value="5" />
                 <label for="star5" title="text">5 stars</label>
@@ -1161,7 +1167,10 @@ function showFoliageProductInfo(data) {
                 </div>
               </span>
               <p class="card-text opacity-75">${data.products[9].desc}</p>
-              <h5 class="product-price">$${data.products[9].price}</h5>
+               <span class="d-flex">
+                <h5 class="new-product-price me-2">$${data.products[9].salePrice}</h5>
+                <h5 class="old-product-price">$${data.products[9].price}</h5>
+              </span>
               <div class="rate">
                 <input type="radio" id="star5" name="rate" value="5" />
                 <label for="star5" title="text">5 stars</label>
