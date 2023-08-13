@@ -341,6 +341,7 @@ h5 {
     display: flex;
     justify-content: center;
     padding: 6px 12px;
+    font-size: 1rem;
   }
 
   .footer .socials {
