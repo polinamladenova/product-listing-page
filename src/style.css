@@ -74,16 +74,15 @@ nav li {
 }
 
 .hero .primary-button:hover {
-  background-color: #e0f5f0;
-  border: solid 4px #ee7e33;
-  padding: 16px;
+  background-color: #ffffff;
   color: #ee7e33;
+  transition: all 150ms ease;
 }
 
 .hero .secondary-button {
   text-decoration: none;
-  border: solid 4px #ee7e33;
-  padding: 16px;
+  background-color: #ffffff;
+  padding: 20px;
   border-radius: 4px;
   color: #ee7e33;
   font-size: 18px;
@@ -277,7 +276,7 @@ h5 {
   background-color: var(--secondary-color);
   color: #ffffff;
   border-radius: 4px;
-  padding: 6px 12px;
+  padding: 9px 100px;
 }
 
 .footer .subscribe-button:hover {
@@ -296,4 +295,58 @@ h5 {
 
 .footer .copyright-section a:hover {
   color: var(--secondary-color);
+}
+
+@media (max-width: 900px) {
+  .hero .col-md {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .hero .hero-text-column {
+    margin-top: 0px;
+    padding: 0px 20px;
+  }
+
+  .hero img {
+    max-width: 400px;
+    margin-top: 70px;
+  }
+
+  .hero h1 {
+    font-size: 45px;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+  }
+
+  .footer {
+    padding: 15px 20px;
+  }
+
+  .footer .container .col-md {
+    padding: 12px;
+  }
+
+  .footer .subscribe-button {
+    padding: 9px 120px;
+  }
+
+  .footer .socials {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .footer .copyright-section {
+    text-align: center;
+  }
+
+  .footer .copyright-section a {
+    padding: 0px;
+    margin-right: 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+  }
 }
