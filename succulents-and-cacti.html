@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Choose your plant from our lovingly-curated succulent and cacti selection."
+    />
     <script
       src="https://kit.fontawesome.com/a4a85b3930.js"
       crossorigin="anonymous"
@@ -20,11 +24,11 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/src/style.css" />
-    <title>Foliage Plants | The Leaf</title>
+    <title>Succulents & Cacti | The Leaf</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   </head>
   <body>
-    <!-- Navbar =================== -->
+    <!-- Navbar =================================== -->
     <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="/index.html"
@@ -44,17 +48,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/index.html"
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="/index.html"
+                title="Home | The Leaf"
                 >Home</a
               >
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle active"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                title="Categories | The Leaf"
               >
                 Categories
               </a>
@@ -72,7 +81,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="#" title="My Cart"
                 ><i class="fa-solid fa-cart-shopping"></i
               ></a>
             </li>
@@ -80,18 +89,18 @@
         </div>
       </div>
     </nav>
-    <!-- Free Shipping Banner=== -->
+    <!-- Free Shipping Banner====================== -->
     <div class="free-shipping-banner text-center mb-3">
       <p class="m-0">- Free shipping for orders over $99.90 -</p>
     </div>
-    <!-- Category Header=================== -->
+    <!-- Category Header=========================== -->
     <div class="product-category-header">
       <h1 class="mb-3">Succulents & Cacti</h1>
       <p class="m-0 opacity-75">
         Prickly, spiny, dry-loving friends to brighten your windowsill (or
         anywhere extra sunny, really).
       </p>
-      <!-- Filters====================== -->
+      <!-- Filters================================= -->
       <span class="filters d-flex justify-content-end">
         <span class="sidebar-filter">
           <p
@@ -179,7 +188,7 @@
       </span>
       <hr class="m-0" />
     </div>
-    <!-- Product Grid====================== -->
+    <!-- Product Grid============================== -->
     <div class="product-grid" id="cactusProductTile"></div>
     <!-- Footer==================================== -->
     <div class="footer mt-3">
@@ -188,25 +197,27 @@
           <div class="col-md">
             <h5>Customer Service</h5>
             <ul>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="">Shipping & Handling</a></li>
-              <li><a href="">Contact Us</a></li>
+              <li><a href="#" title="FAQ">FAQ</a></li>
+              <li>
+                <a href="#" title="Shipping & Handling">Shipping & Handling</a>
+              </li>
+              <li><a href="#" title="Contacts Us">Contact Us</a></li>
             </ul>
           </div>
           <div class="col-md">
             <h5>Company</h5>
             <ul>
-              <li><a href="">About Us</a></li>
-              <li><a href="">Blog</a></li>
-              <li><a href="">Join the Team</a></li>
+              <li><a href="#" title="About Us">About Us</a></li>
+              <li><a href="#" title="Blog">Blog</a></li>
+              <li><a href="#" title="Join the Team">Join the Team</a></li>
             </ul>
           </div>
           <div class="col-md">
             <h5>My Account</h5>
             <ul>
-              <li><a href="">Track My Order</a></li>
-              <li><a href="">Returns Portal</a></li>
-              <li><a href="">Find Your Plant</a></li>
+              <li><a href="#" title="Track My Order">Track My Order</a></li>
+              <li><a href="#" title="Returns Portal">Returns Portal</a></li>
+              <li><a href="#" title="Find Your Plant">Find Your Plant</a></li>
             </ul>
           </div>
           <div class="col-md">
@@ -248,17 +259,14 @@
           </div>
         </div>
       </div>
-      <div class="copyright-section mt-5 opacity-75">
-        <div class="row">
-          <div class="col-md">
-            <i class="fa-solid fa-leaf logo"></i> Copyright 2023 - The Leaf,
-            Inc.
-          </div>
-          <div class="col-md text-end">
-            <a href="#" title="Terms of Use">Terms of Use</a>
-            <a href="#" title="Privacy Policy">Privacy Policy</a>
-            <a href="#" title="Cookie Settings">Cookie Settings</a>
-          </div>
+      <div class="row mt-5 opacity-75 copyright-section">
+        <div class="col-md">
+          <i class="fa-solid fa-leaf logo"></i> Copyright 2023 - The Leaf, Inc.
+        </div>
+        <div class="col-md text-end">
+          <a href="#" title="Terms of Use">Terms of Use</a>
+          <a href="#" title="Privacy Policy">Privacy Policy</a>
+          <a href="#" title="Cookie Settings">Cookie Settings</a>
         </div>
       </div>
     </div>
