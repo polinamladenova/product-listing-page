@@ -46,7 +46,7 @@ nav li {
 
 .hero {
   background-color: #e0f5f0;
-  padding: 0;
+  padding: 45px;
   margin: 0;
 }
 
@@ -59,6 +59,11 @@ nav li {
 .hero p {
   font-size: 22px;
   line-height: 35px;
+}
+
+.hero img {
+  max-width: 550px;
+  border-radius: 4px;
 }
 
 .hero .primary-button {
@@ -324,6 +329,7 @@ h5 {
 
   .footer {
     padding: 30px 10px;
+    font-size: 14px;
   }
 
   .footer .col-md {
