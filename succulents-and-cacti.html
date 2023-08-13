@@ -92,81 +92,88 @@
       </p>
       <!-- Filters====================== -->
       <span class="filters d-flex justify-content-end">
-        <p
-          class="me-4"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasScrolling"
-          aria-controls="offcanvasScrolling"
-        >
-          Show Filters <i class="fa-solid fa-filter"></i>
-        </p>
-        <div
-          class="offcanvas offcanvas-start"
-          data-bs-scroll="true"
-          data-bs-backdrop="false"
-          tabindex="-1"
-          id="offcanvasScrolling"
-          aria-labelledby="offcanvasScrollingLabel"
-        >
-          <div class="offcanvas-body p-4">
-            <div class="d-flex justify-content-end">
-              <button
-                type="button"
-                class="btn-close justify-content-end"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
+        <span class="sidebar-filter">
+          <p
+            class="me-4"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasScrolling"
+            aria-controls="offcanvasScrolling"
+          >
+            Show Filters <i class="fa-solid fa-filter"></i>
+          </p>
+          <div
+            class="offcanvas offcanvas-start"
+            data-bs-scroll="true"
+            data-bs-backdrop="false"
+            tabindex="-1"
+            id="offcanvasScrolling"
+            aria-labelledby="offcanvasScrollingLabel"
+          >
+            <div class="offcanvas-body p-4">
+              <div class="d-flex justify-content-end">
+                <button
+                  type="button"
+                  class="btn-close justify-content-end"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <h5>Size</h5>
+              <ul>
+                <li>
+                  <input
+                    type="checkbox"
+                    name="startingReserves"
+                    value="starting"
+                    id="starting"
+                  /><label for="starting"></label> Small
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    name="startingReserves"
+                    value="starting"
+                    id="starting"
+                  /><label for="starting"></label> Medium
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    name="startingReserves"
+                    value="starting"
+                    id="starting"
+                  /><label for="starting"></label> Large
+                </li>
+              </ul>
+              <hr />
+              <h5>Light</h5>
+              <ul>
+                <li>
+                  <input
+                    type="checkbox"
+                    name="startingReserves"
+                    value="starting"
+                    id="starting"
+                  /><label for="starting"></label> Low Light
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    name="startingReserves"
+                    value="starting"
+                    id="starting"
+                  /><label for="starting"></label> Bright Light
+                </li>
+              </ul>
             </div>
-            <h5>Size</h5>
-            <ul>
-              <li>
-                <input
-                  type="checkbox"
-                  name="startingReserves"
-                  value="starting"
-                  id="starting"
-                /><label for="starting"></label> Small
-              </li>
-              <li>
-                <input
-                  type="checkbox"
-                  name="startingReserves"
-                  value="starting"
-                  id="starting"
-                /><label for="starting"></label> Medium
-              </li>
-              <li>
-                <input
-                  type="checkbox"
-                  name="startingReserves"
-                  value="starting"
-                  id="starting"
-                /><label for="starting"></label> Large
-              </li>
-            </ul>
-            <hr />
-            <h5>Light</h5>
-            <ul>
-              <li>
-                <input
-                  type="checkbox"
-                  name="startingReserves"
-                  value="starting"
-                  id="starting"
-                /><label for="starting"></label> Low Light
-              </li>
-              <li>
-                <input
-                  type="checkbox"
-                  name="startingReserves"
-                  value="starting"
-                  id="starting"
-                /><label for="starting"></label> Bright Light
-              </li>
-            </ul>
           </div>
-        </div>
-        <p>Sort By: Price Ascending <i class="fa-solid fa-chevron-down"></i></p>
+        </span>
+        <select class="form-select mb-2" name="Sorting dropdown menu" id="">
+          <option selected value="l2h">Sort By: Price Low to High</option>
+          <option value="h2l">Sort By: Price High to Low</option>
+          <option value="2">Sort By: Alphabetical (a-z)</option>
+          <option value="3">Sort By: Alphabetical (z-a)</option>
+        </select>
       </span>
       <hr class="m-0" />
     </div>
